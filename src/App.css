@@ -1,0 +1,63 @@
+.custom-size {
+  width: 2px;
+  height: 2px;
+}
+.custom-img {
+  width: 814px;
+  height: 725px;
+}
+
+.custom-strong {
+  width: 502px;
+  height: 190px;
+  top: 396px;
+  left: 325px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 88px;
+  text-align: left;
+  margin-bottom: 2rem;
+  display: block;
+}
+.custom-div {
+  width: 415px;
+  height: 140px;
+  top: 623px;
+  left: 325px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 65px;
+  text-align: left;
+}
+
+.custom-span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 65px;
+  text-align: left;
+}
+
+.custom-button-container {
+    position: absolute; /* to control top and left positioning */
+    top: 824px;
+    left: 325px;
+  }
+
+  .custom-button {
+    width: 192px;
+    height: 54px;
+    padding: 15px 52px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    background-color: #1A73E8;
+    font-family: 'Roboto', sans-serif;
+    color: white; /* Optional: to ensure the text is readable */
+    border: none; /* Optional: to remove any default borders */
+  }
