@@ -1,6 +1,7 @@
 import Refer from './components/Refer';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Howrefer from './components/Howrefer';
 
 function App() {
   return (
@@ -9,9 +10,13 @@ function App() {
       <BrowserRouter>
         <div>
           <Routes>
-            <Route path='/refer' element={<Refer />} />
+            <Route path='/' element={<Refer />} />
           </Routes>
         </div>
+        <div>
+          <Howrefer />
+        </div>
+
       </BrowserRouter>
     </>
   );

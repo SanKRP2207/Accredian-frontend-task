@@ -10,7 +10,7 @@ function Tamplate() {
   const handleClose = () => setOpen(false);
   return (
     <div className='grid sm:grid-cols-12 sm:w-[1360px] sm:h-[692px] bg-custom-white bg-custom-image bg-cover bg-center rounded-lg shadow-lg'>
-      <div className='sm:col-span-4'>
+      <div className='sm:col-span-4 ml-8 mt-10'>
         <strong className='custom-strong'>
           Let’s Learn & Earn
         </strong>
